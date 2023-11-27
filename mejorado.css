@@ -1,0 +1,117 @@
+.content{
+    width: 90%;
+    margin: 5rem auto 0rem;
+    box-shadow: 10px 10px 16px rgba(0, 0, 0, 0.2);
+    padding: 0.7rem;
+    border-radius: 10px;
+}
+.pregunta{
+    display: flex;
+}
+.principal{
+    width: 100%;
+}
+.face{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+}
+.respuesta{
+    width: 15%;
+    font-size: 1.5rem;
+}
+tr{
+   border-top: 1px solid #C1E8FF;
+}
+td{
+    border-right: .2rem solid #001256;
+
+}
+h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+td h3{
+    width: 13rem;
+    margin-left: 1.5rem;
+}
+tr{
+    background:transparent;
+}
+.mala{
+    width: 20%;
+    color: #dc143c; 
+    cursor: pointer;
+}
+.regular{
+    width: 20%;
+    color: #FF8C00; 
+    cursor: pointer;
+}
+.buena{
+    width: 20%;
+    color: #FFD700; 
+    cursor: pointer;
+}
+.mbuena{
+    width: 20%;
+    color: #2E8B57; 
+    cursor: pointer;
+}
+.excelente{
+    width: 20%;
+    color: #1E90FF; 
+    cursor: pointer;
+}
+.re{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.buttons{
+    width: 50%;
+    margin: 10px auto;
+    text-align: center;
+}
+.por{
+    margin-top: 1rem;
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+.c{
+    position: absolute;
+    width: 30%;
+    right: .2rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    display: flex;
+    border:3px solid#052659;
+    border-radius: 15px;
+}
+.porcentaje{
+    background-color: #000000;
+    text-align: center;
+    color: #fff;
+    width: 50%;
+    border-radius: 0 10px 10px 0;
+}
+p .porcentaje{
+    margin-bottom: 1px !important;
+}
+p .palabra{
+    margin-bottom: 1px !important;
+}
+.palabra{
+    width: 50%;
+    text-align: center;
+    color: #052659;
+    background-color: #fff;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
