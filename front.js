@@ -33,6 +33,22 @@ function actualizarPorcentaje() {
     var guardarBtn = document.getElementById("guardarBtn");
     guardarBtn.disabled= false;
     guardarBtn.style.backgroundColor="rgb(0,18,86)";
+
+
+    var contenido = porcentaje.innerHTML;
+    var numero = parseFloat(contenido);
+
+    if (numero >= 0 && numero <= 69) {
+        porcentaje.style.backgroundColor = "red";
+    } else if (numero >= 70 && numero <= 89) {
+        porcentaje.style.backgroundColor = "darkgoldenrod";
+    } else if (numero >= 90 && numero <= 95) {
+        porcentaje.style.backgroundColor = "green";
+    } else if (numero >= 96 && numero <= 100) {
+        porcentaje.style.backgroundColor = "blue";
+    } else {
+        porcentaje.style.backgroundColor = "black";
+    }
 }
 
 function copiarPropiedades(elemento) {
