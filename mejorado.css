@@ -32,9 +32,15 @@ td{
     border-right: .2rem solid #001256;
 
 }
+
+a{
+    text-decoration: none;
+    color: #c1e8ff;
+}
 h3{
     font-size: 1.5rem;
     font-weight: 700;
+    text-align: center;
 }
 td h3{
     width: 13rem;
@@ -114,4 +120,7 @@ p .palabra{
     border-radius: 15px;
     font-weight: 700;
     font-size: 1.2rem;
+}
+.for_i{
+    display: table-column; align-content: center; align-items: center; text-align: center; color: #c1e8ff
 }
