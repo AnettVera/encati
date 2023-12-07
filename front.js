@@ -242,3 +242,37 @@ function obtenerValor(color) {
             return 0;
     }
 }
+
+
+function limpiar(){
+    po = null;
+    f = c = u = r = m = p = s = com = null;
+
+    // Resetear estilos y contenido de respuestas
+    resetearElemento("respFun", "Funcionalidad");
+    resetearElemento("resConf", "Confiabilidad");
+    resetearElemento("resUs", "Usabilidad");
+    resetearElemento("resRen", "Rendimiento");
+    resetearElemento("resMan", "Mantenimiento");
+    resetearElemento("resPor", "Portabilidad");
+    resetearElemento("resSeg", "Seguridad");
+    resetearElemento("resCom", "Compatibilidad");
+
+
+    var porcentaje = document.getElementById("porcentaje");
+    porcentaje.textContent = "0%";
+    porcentaje.style.backgroundColor = "";
+
+    var guardarBtn = document.getElementById("guardarBtn");
+    guardarBtn.disabled = true;
+    guardarBtn.style.backgroundColor = "rgb(119, 120, 121)";
+}
+
+function resetearElemento(respuestaId, rowId) {
+    var respuesta = document.getElementById(respuestaId);
+    respuesta.style.color = "";
+    respuesta.innerHTML = "";
+
+    var row = document.getElementById(rowId);
+    row.style.backgroundColor = "";
+}
